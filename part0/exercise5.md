@@ -27,6 +27,9 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
+
+    note right of browser: The JS code makes a HTTP GET request for the JSON file containing the notes
+
     server-->>browser: the JSON file
     deactivate server
 
