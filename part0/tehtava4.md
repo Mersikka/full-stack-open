@@ -35,5 +35,5 @@ sequenceDiagram
     server-->>browser: the JSON file
     deactivate server
 
-    note right of browser: The browser executes the callback function that renders the notes
+    note right of browser: The browser executes the callback function that renders the notes using the DOM api
 ```
